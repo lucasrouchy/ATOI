@@ -24,10 +24,12 @@ def myAtoi(s: str) -> int:
 
     num = flag * num
     return num 
-
-myAtoi("42")
-myAtoi("       -442")
-myAtoi("4193 with words")
+print("42")
+print("       -442")
+print("4193 with words")
+print(myAtoi("42"))
+print(myAtoi("       -442"))
+print(myAtoi("4193 with words"))
 
 
 
